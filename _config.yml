@@ -1,0 +1,41 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+
+### content configuration ###
+title:       "Michelle Wee | Front End Developer"
+keywords:    "developer, front end, web developer"
+description: "Homepage of Michelle Wee"
+source_link: "https://github.com/Gargoyelle/gargoyelle.github.io"
+favicon:     #put a path like: "img/favicon.ico"
+touch_icon:  #put a path like: "img/apple-touch-icon.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+  melrose:   '#9d9bfc'
+  anakiwa:   '#a4e1fc'
+  gold:      '#ffb72f'
+  mintgreen: '#a0f990'
+  grey:      '#666'
+  pink:      '#f7a1f5'
